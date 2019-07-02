@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Nang01T2/Coordinator.git.git", :tag => s.version }
   s.homepage     = "https://github.com/Nang01T2/Coordinator.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Nang Nguyen" => "nang.nguyen@evizi.com" }
+  s.author             = { "Nang Nguyen" => "thaonguyen83.dn@gmail.com" }
   s.social_media_url   = ""
 
   s.ios.deployment_target = "10.0"
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "3.0"
   s.tvos.deployment_target = "10.0"
 
-  s.source_files  = "Sources/**/*"
+  s.source_files  = "Sources/**/*.{h,swift,m}"
   s.resource_bundles = {
     'Coordinator' => [
         'Sources/*.xcassets'
